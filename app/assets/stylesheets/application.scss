@@ -1,0 +1,98 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import 'bootstrap-sprockets';
+ @import 'bootstrap';
+
+body {
+  background-image: image-url('walking_dead_background.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.move_right {
+  padding-left: 80px;
+  padding-right: 10px;
+}
+
+.move {
+  padding-left: 80px;
+  padding-right: 10px;
+}
+
+#red_font {
+  color: red;
+}
+
+#post_name{
+  font-size: 16px;
+  color: black;
+}
+
+#comment_button{
+  margin-left: 20px;
+}
+
+#comment_box_size{
+  margin-left: 1px;
+}
+
+#post_title_panel{
+  padding-left: 208px;
+}
+
+#date {
+  font-size: 12px;
+  float: right;
+  padding-top: 17px;
+}
+
+#comment_color{
+  color: white;
+}
+
+#date_comment{
+  font-size: 12px;
+  float: right;
+}
+
+.invalid {
+  color: #B40404;
+}
+
+#sign_up {
+  color: #F3E2A9;
+}
+
+#sign_up_head {
+  color: #F3E2A9;
+}
+
+#thumb {
+  float: right;
+}
+
+#profile {
+  color: #F3E2A9;
+}
+
+#edit_profile {
+  color: #F3E2A9;
+}
+
+#create_post {
+  color: #F3E2A9;
+}

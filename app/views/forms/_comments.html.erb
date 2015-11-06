@@ -1,0 +1,5 @@
+<%= form_for [@post, @comment] do |f| %>
+    <%= f.label :body, 'Edit Your Comment' %>
+    <%= f.text_area :body, placeholder: @comment.body %>
+    <%= f.submit "Change your comment!" %>
+<% end %>
